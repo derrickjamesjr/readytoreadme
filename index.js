@@ -56,9 +56,8 @@ inquirer
             .join('')}.json`;
     
     console.log(data);
-    console.log(file);
 
-    fs.writeFile('/.md', JSON.stringify(data,null, '\t'), err => 
+    fs.appendFile('README.md', JSON.stringify(data, null, '\t'), err => 
     err ? console.log(err) : console.log('Excellent!'));});
 
 // TODO: Create a function to write README file
