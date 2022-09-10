@@ -1,6 +1,7 @@
 // TODO: Include packages needed for this application
 import inquirer from 'inquirer';
 import fs from 'node:fs/promises';
+import {generateMarkdown} from '../utils/index.js';
 // TODO: Create an array of questions for user input
 const questions = [];
 
@@ -58,7 +59,7 @@ inquirer
     console.log(data);
     console.log(file);
 
-    fs.writeFile('/.md', JSON.stringify(data,null, '\t'), err => 
+    fs.writeFile('README.md', generateMarkdown(data), err => 
     err ? console.log(err) : console.log('Excellent!'));});
 
 // TODO: Create a function to write README file
