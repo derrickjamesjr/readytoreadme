@@ -1,7 +1,7 @@
-# q
+# Swift and Simple
 
   ## Description 
-  w
+  It's a short quiz game designed to quiz people on Javascript knowledge.
 
   ## Table of Contents
   * [Installation](#installation)
@@ -13,22 +13,22 @@
   * [GitHub](#github)
   
   ## Installation 
-  e
+  No installation required. Just click the link and it should initiate.
 
   ## Usage 
-  r
+  Once you click the link to the webpage, the front page will have a start button. Hit the start button and answer the questions to the best of your knowledge.
 
   ## License 
   This project is license under undefined
 
   ## Contributing 
-  undefined
+  My class instructor (Kevin Ferguson) gave some code to help me with the project.
 
   ## Tests
-  y
+  Click the link. Press Start. Click any answer. if it is correct, the timer will be normal time and move on. If the answer is wrong, time will be taken away and the question will move to the next one.
 
   ## Email
-  Contact me directly at u if you have any questions.
+  Contact me directly at ballyouth@gmail.com if you have any questions.
   
   ## GitHub
-  View more of my projects at https://github.com/i.
+  View more of my projects at https://github.com/https://github.com/derrickjamesjr.
